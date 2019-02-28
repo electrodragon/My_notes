@@ -1,0 +1,28 @@
+body{
+  background:black;
+  color:#74ff00;
+}
+.jumbotron{
+  background:#3c3635;
+  border:0px solid;
+  font-family:monospace;
+}
+#green{
+  color:yellow;
+}
+#var{
+  color:white;
+}
+#comment{
+  color:silver;
+}
+.row{
+	padding:15px;
+}
+#terminal{
+	color:#1fff00 !important;
+  background:none;
+  border:1px solid red;
+  border-radius:0px;
+  font-family:monospace;
+}

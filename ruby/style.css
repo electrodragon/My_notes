@@ -1,0 +1,72 @@
+body{
+	background:black;
+	color:green;
+	/*background: url("images/background5.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;*/
+}
+p{
+	background:black;
+	color:green;
+	border:0px solid;
+	font-size:21px;
+}
+pre{
+	border:1px solid blue;
+	border-radius:0px;
+	background:none !important;
+	color:yellow !important;
+}
+.col-sm-4{
+	border-right:1px solid white;
+	border-left:1px solid white;
+}
+.col-sm-6{
+	border-right:1px solid white;
+	border-left:1px solid white;
+}
+.col-sm-8{
+	border-right:1px solid white;
+	border-left:1px solid white;
+}
+.row{
+	padding:15px;
+}
+#initialize{
+	/*background:linear-gradient(tomato,orange);
+	color:linear-gradient(red,blue);*/
+	background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#def, #end, #class, #if, #else, #module{
+	color:violet;
+}
+#method{
+	color:tomato;
+}
+#cname{
+	color:purple;
+}
+#var{
+	color:dodgerblue;
+}
+#attr{
+	color:floralwhite;
+}
+#imp{
+border-left:10px solid yellow;
+border-right:10px solid tomato;
+border-bottom:1px dotted green;
+font-size:16px;
+font-family:monospace;"
+}
+#inc{
+	color:floralwhite;
+}
+#mname{
+	color:orange;
+}
+#terminal{
+	color:#1fff00 !important;
+}
